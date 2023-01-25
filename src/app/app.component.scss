@@ -1,0 +1,194 @@
+// .container{
+//     display:flex;
+//     background-color: rgb(86, 80, 80);
+//     justify-content: center;
+//     align-items: center;
+//     position:relative;
+//     background-size: cover;
+//     background-position: cover;
+//     width: 100%;
+//     height: fit-content;
+//     align-items: center;
+//     flex-wrap: wrap;
+// }
+
+// .card{
+//     height:400px;
+//     width:250px;
+//     border-radius: 8px;
+//     box-shadow:0 0 3px 3px grey;
+//     position:relative;
+//     display: flex;
+//     margin:auto;
+//     margin-bottom: 20px;
+//     flex-wrap: wrap;
+// }
+// .image img{
+//     height:80px;
+//     width:80px;
+//     border-radius: 50%;
+//     position: absolute;
+//     display:flex;
+// }
+// .image{
+//     position:relative;
+//     left: 85px;
+//     top: 30px;
+//     padding: 6px;
+//     height:80px;
+//     width:80px;
+//     border-radius: 50%;
+//     background:rgb(118, 25, 104);
+//     display: flex;
+// }
+// .text-container{
+//     position:absolute;
+//     top:130px;
+//     left:70px;
+//     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+//     font-size:medium;
+//     color: black;
+//     display: flex;
+// }
+// .name{
+//     position: relative;
+//     top:0px;
+//     left:25px;
+//     display: flex;
+// }
+// .role{
+//     position: relative;
+//      top:30px;
+//     right:40px;
+//     justify-content: center;
+//     display:flex;
+// }
+// .card:hover{
+//     cursor: pointer;
+// }
+// .card:hover .image{
+//     padding: 10px;
+//     background-color: goldenrod;
+//     transition: all 0.3s linear 0s;
+//     height: 80px;
+//     width:80px;
+//     display:flex;
+// }
+// .lower-container{
+//     position: relative;
+//     top: 130px;
+//     bottom:10px;
+//     display: inline-block;
+//     height: 50px;
+//     width:250px;
+//     border-radius: 6px;
+//     background-color: rgb(118, 25, 104);
+//     display: none;
+
+// }
+// .lower-container ul{
+//     display:flex;
+//     gap:25px;
+//     margin-left: -20px;
+//     margin-top: 10px;
+//     }
+// .lower-container li{
+//     display:inline;
+//     bottom:10px;
+//     display: flex;
+//     }
+// .lower-container img{
+//     height:35px;
+//     width:35px;
+//     border-radius: 50%;
+// }
+// .card:hover{
+//     background-color: rgb(191, 135, 190);
+//     transition: all 0.3s linear 0s;
+//     display: flex;
+// }
+// .card:hover .lower-container{
+//     background-color:goldenrod;
+//     display: flex;
+// }
+.container {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.first-container {
+  width: 100%;
+  height: 100px;
+  //   border: 2px solid purple;
+  top: 0;
+  background-color: lavender;
+}
+.input-container {
+  position: absolute;
+  top: 10px;
+  width: 300px;
+  display: flex;
+  // border: 2px solid black;
+  padding: 8px;
+}
+input {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background: transparent;
+}
+input:focus {
+  border-color: rgb(118, 25, 104);
+  box-shadow: 0 0 8px 0 rgb(118, 25, 104);
+}
+.button-container {
+  position: relative;
+  top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+button {
+  width: 100px;
+  padding: 5px;
+  background-color: rgb(118, 25, 104);
+  color: goldenrod;
+  border-radius: 5px;
+  border-color: rgb(118, 25, 104);
+  transition: 0.3s;
+}
+button:hover {
+  background-color: goldenrod;
+  color: rgb(118, 25, 104);
+  border-color: goldenrod;
+}
+.tab-container {
+  top: 0;
+  height: 100vh;
+  // width:100%;
+  display: flex;
+  position: relative;
+  //  border: 2px solid blue;
+}
+.inner-container {
+  top: 0px;
+  position: relative;
+  height: 100vh;
+  width: 400px;
+  // border: 2px solid red;
+  background: lavender;
+}
+.side-container {
+  top: 0px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin-left: 0px;
+  // border: 2px solid orange;
+}
